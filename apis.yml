@@ -1,22 +1,71 @@
 aid: apropose
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apropose.png
 name: Apropose
-description: Apropose is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Apropose, Inc. was a Mountain View, California startup spun out of the Stanford
+  University Computer Science Department in 2013 to bring data-driven software to
+  web design. Founded by Ranjitha Kumar, Jerry Talton, Maxine Lim, and Arvind
+  Satyanarayan, the company built tools for large-scale visual page search and
+  web design analytics — letting teams track design trends, compare a site's
+  design against demographics, and surface prevalent design patterns to inject
+  concrete data into the design process. It raised a roughly $1.875M seed round in
+  2014 led by New Enterprise Associates (NEA) and Andreessen Horowitz (a16z), with
+  angels including Pat Hanrahan and Nick McKeown. The company has since ceased
+  operations and is permanently closed; it publishes no public API, developer
+  portal, or documentation, and its primary domain (apropose.com) is now parked
+  and listed for sale. This profile is retained as an a16z portfolio-lead record.
 url: https://raw.githubusercontent.com/api-evangelist/apropose/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- NEA
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: >-
+  Company ceased operations and is permanently closed. apropose.com redirects to
+  an Afternic domain-for-sale parking page (HTTP 307); apropose.ai and apropose.io
+  do not resolve. No live API or developer surface exists to enrich.
+x-founded: '2013'
+x-founders:
+- Ranjitha Kumar
+- Jerry Talton
+- Maxine Lim
+- Arvind Satyanarayan
+x-headquarters: Mountain View, California, United States
+x-origin: Stanford University Computer Science Department spinout
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Defunct
+- Web Design
+- Design Analytics
+- Machine Learning
+- Data Visualization
+- Stanford Spinout
+- a16z Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
