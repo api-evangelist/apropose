@@ -65,7 +65,7 @@ tags:
 - Defunct
 - Web Design
 - Design Analytics
-- Machine-Learning
+- Machine Learning
 - Data Visualization
 - Stanford Spinout
 - a16z Portfolio
@@ -78,6 +78,7 @@ tags_raw:
 - Data Visualization
 - Stanford Spinout
 - a16z Portfolio
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
